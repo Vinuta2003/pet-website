@@ -1,0 +1,196 @@
+/* @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;@400;500;600;700;800;900@display=swap); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+/*    background: linear-gradient(b3c638, ddf7fb);*/
+    background: #b3c638;
+    min-height: 100vh;
+    overflow-x: hidden;   
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    pointer-events: none;
+}
+
+.logo img:hover{
+    width: 100px;   
+}
+
+#pet_group{
+    position: absolute;  
+    width: 50%;
+    margin-left: 25%;
+}
+
+#emphasize{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    align-items: flex-end;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#house{
+    width: 100%;
+    filter: brightness(0.6);
+    filter: blur(1px);
+}
+
+#dog{
+    width:90%;
+}
+
+h3 span {
+    transition: 0.5s ease-out;
+}
+h3:hover span:nth-child(1) {
+    margin-right: 5px;
+}
+h3:hover span:nth-child(2):after {
+    content: " ";
+}
+h3:hover span:nth-child(2) {
+    margin-left: 5px;
+}
+h3:hover span:nth-child(2):before {
+    content: " ";
+}
+h3:hover span:nth-child(3) {
+    margin-left: 5px;
+}
+h3:hover span {
+    color: #000;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+.navigation a{
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 6px 15px;
+    margin: 0 10px;
+    font-weight: 600;
+    border-radius: 15px; 
+}
+
+.navigation a:hover,
+.navigation a.active
+{
+    background: aqua;
+    color: black;
+}
+
+.parall{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#titl{
+    background-color: blanchedalmond;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 5em;
+    color: black;
+    text-shadow: 0cqmax rgba(rgb(58, 38, 38), rgb(21, 57, 21), rgb(104, 104, 223), alpha);
+    font-family: cursive;
+}
+
+#login{
+    position: sticky;
+    margin-top: 300px;
+    text-decoration: none;
+    font-size: 2.5em;
+    padding: 5px 10px;
+    background-color: ghostwhite;
+    border: solid darkgreen;
+    border-radius: 30px;
+}
+    
+.parall img{
+    position: absolute;
+    width: 40%;
+    pointer-events: none;   
+}
+
+ #hare{  
+    margin-top: 9%;
+    width: 90%;
+} 
+
+#bird{
+    width: 27%;
+    margin-right: 11%;
+    margin-top: -14%;
+    
+}
+
+.par{
+    margin-top: 100px;
+    padding: 25px;
+    color: black;
+    width: 50%;
+    margin: 5% auto auto auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sec{
+/*    background: linear-gradient(b3c638, ddf7fb);*/
+    background: linear-gradient(#b3c638, #ddf7fb);
+    height: 100vh;
+}
+
+.foot{
+    background: #ddf7fb;
+    color: darkgreen;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.socials{
+    background: #ddf7fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+}
+
+.socials-child,
+.socials-inner,
+.socials-item {
+    position: absolute;
+    height: 30px;
+}
+
+.socials-inner, .socials-item, .socials-child, .youtube-icon, .facebook-icon, .instagram-icon{
+    margin: auto;
+    padding: 10px;
+}
+
+.socials img{
+    width: 70px;
+}
